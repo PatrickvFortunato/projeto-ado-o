@@ -1,0 +1,135 @@
+
+#menu-horizontal{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+ 
+
+#menu-horizontal ul{
+    margin-top: 30px;
+    background: #353634;
+    float: left;
+    border-radius: 5px;
+    margin-top: 0;
+    
+}
+
+#menu-horizontal ul li{
+    float: left;
+    list-style: none;
+}
+
+#menu-horizontal ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 2.1em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#menu-horizontal ul a:hover{
+    color: #69001d;
+    background: #de003e;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffc6a5; 
+}
+header{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #2b2b2b;
+}
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 2vw;
+
+}
+.gallery-items{
+    width: 340px;
+    height: 340px;
+    border: 10px solid #f2e3c6;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #0006;
+    flex-grow: 1;
+    transition: transform 0.3s linear;
+}
+.gallery-items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.legenda{
+    display: none;
+    background-color: black;
+}
+
+.gallery-items:hover{
+    transform: scale(1.3);
+    border: 0 solid #fff;
+}
+
+footer{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-style: italic;
+}
+
+.gallery-container a{
+   text-decoration: none;
+
+} 
+
+.container-rodape{
+    background: #e6324b;
+    display: flex;
+    align-items: center;
+}
+
+.links1{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    padding: 0.4em 1em;
+    color: #2b2b2b;
+}
+
+#linksul li{
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+}
+
+.links1:hover{
+    color: #f2e3c6;
+    
+}
+
+
+
